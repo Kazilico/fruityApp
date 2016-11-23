@@ -8,3 +8,20 @@ if(mm<10) {
 
 month = mm;
 console.log (month)
+
+var data = {"fruits":[
+			{
+				"fruitname":"apples",
+				"ripemonths": ["7", "8", "9", "10", "11"],
+			},
+			{
+				"fruitname":"peaches",
+				"ripemonths": ["6", "7", "8", "9"],
+			},
+			{
+				"fruitname":"pears",
+				"ripemonths": ["8", "9", "10",],
+			},
+]}
+
+consol.log (data)
