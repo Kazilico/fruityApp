@@ -24,4 +24,4 @@ var data = {"fruits":[
 			},
 ]}
 
-consol.log (data)
+console.log (data)
