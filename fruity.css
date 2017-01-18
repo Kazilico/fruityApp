@@ -2,116 +2,15 @@
 
 }
 
-.mulberries {
+.fruitPic {
 	position: relative;
-	width: 80px;
-	height: 80px;
+	width: 180px;
+	height: 180px;
+}
+.fruit {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
 }
 
-.nectarines {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.oranges {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.peaches {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.pecans {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.persimmons {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.pistachios {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.plums {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.pluots {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.mulberries {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.pomegranates {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.pomelos {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.quinces {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.raspberries {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.rhubarb {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.strawberries {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.tayberries {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
-
-.tomatoes {
-	position: relative;
-	width: 80px;
-	height: 80px;	
-}
-
-.walnuts {
-	position: relative;
-	width: 80px;
-	height: 80px;
-}
