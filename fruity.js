@@ -11,73 +11,97 @@ console.log (month)
 
 var data = {"fruits":[
 			{
-				"fruitname":"mulberries",
-				"ripemonths": ["7", "8"],
+				"fruitName":"mulberries",
+				"ripeMonths": ["07", "08"],
+				"isRipe": false, 
 			},
 			{
-				"fruitname":"nectarines",
-				"ripemonths": ["5", "6", "7", "8", "9", "10"],
+				"fruitName":"nectarines",
+				"ripeMonths": ["05", "06", "07", "08", "09", "10"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"oranges",
-				"ripemonths": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+				"fruitName":"oranges",
+				"ripeMonths": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"peaches",
-				"ripemonths": ["5", "6", "7", "8", "9", "10"],
+				"fruitName":"peaches",
+				"ripeMonths": ["05", "06", "07", "08", "09", "10"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"pecans",
-				"ripemonths": ["10"],
+				"fruitName":"pecans",
+				"ripeMonths": ["10"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"persimmons",
-				"ripemonths": ["9", "10", "11"],
+				"fruitName":"persimmons",
+				"ripeMonths": ["09", "10", "11"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"pistachios",
-				"ripemonths": ["9", "10", "11"],
+				"fruitName":"pistachios",
+				"ripeMonths": ["09", "10", "11"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"plums",
-				"ripemonths": ["5", "6", "7", "8", "9", "10", "11"],
+				"fruitName":"plums",
+				"ripeMonths": ["05", "06", "07", "08", "09", "10", "11"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"pomegranates",
-				"ripemonths": ["9", "10", "11", "12"],
+				"fruitName":"pomegranates",
+				"ripeMonths": ["09", "10", "11", "12"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"pomelos",
-				"ripemonths": ["1", "2", "3", "4", "11", "12"],
+				"fruitName":"pomelos",
+				"ripeMonths": ["01", "02", "03", "04", "11", "12"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"quinces",
-				"ripemonths": ["9", "10", "11"],
+				"fruitName":"quinces",
+				"ripeMonths": ["09", "10", "11"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"raspberries",
-				"ripemonths": ["5", "6", "7", "8", "9", "10", "11"],
+				"fruitName":"raspberries",
+				"ripeMonths": ["05", "06", "07", "08", "09", "10", "11"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"rhubard",
-				"ripemonths": ["4", "5", "6", "7"],
+				"fruitName":"rhubard",
+				"ripeMonths": ["04", "05", "06", "07"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"strawberries",
-				"ripemonths": ["3", "4", "5", "6", "7", "8", "9", "10", "11"],
+				"fruitName":"strawberries",
+				"ripeMonths": ["03", "04", "05", "06", "07", "08", "09", "10", "11"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"tayberries",
-				"ripemonths": ["6", "7", "8"],
+				"fruitName":"tayberries",
+				"ripeMonths": ["06", "07", "08"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"tomatoes",
-				"ripemonths": ["6", "7", "8", "9", "10", "11"],
+				"fruitName":"tomatoes",
+				"ripeMonths": ["06", "07", "08", "09", "10", "11"],
+				"isRipe": false,
 			},
 			{
-				"fruitname":"walnuts",
-				"ripemonths": ["10"],
+				"fruitName":"walnuts",
+				"ripeMonths": ["10"],
+				"isRipe": false,
 			},
 ]}
 
 console.log (data)
+
+var ripe = 
+	if month == data.fruits.ripeMonths {
+	then data.fruits.isRipe == true
+}
+
+console.log (data.fruits.isRipe)
