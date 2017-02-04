@@ -97,11 +97,15 @@ var data = {"fruits":[
 			},
 ]}
 
-console.log (data)
 
+
+console.log (data[5]);
+
+/*
 var ripe = 
 	if month == data.fruits.ripeMonths {
 	then data.fruits.isRipe == true
 }
 
 console.log (data.fruits.isRipe)
+*/
