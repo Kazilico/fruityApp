@@ -101,8 +101,138 @@ var data = {"fruits":[
 
 console.log (data.fruits[5].ripeMonths);
 
-if (data.fruits[this].ripeMonths) = (month)
-	(data.fruits[this].isRipe) = true
-else (data.fruits[this].isRipe) = false
+if (data.fruits[0].ripeMonths === month){
+	(data.fruits[0].isRipe === true)
+} else {
+	(data.fruits[0].isRipe === false)
+}
+
+if (data.fruits[1].ripeMonths === month){
+	(data.fruits[1].isRipe === true)
+} else {
+	(data.fruits[1].isRipe === false)
+}
+
+if (data.fruits[2].ripeMonths === month){
+	(data.fruits[2].isRipe === true)
+} else {
+	(data.fruits[2].isRipe === false)
+}
+
+if (data.fruits[3].ripeMonths === month){
+	(data.fruits[3].isRipe === true)
+} else {
+	(data.fruits[3].isRipe === false)
+}
+
+if (data.fruits[4].ripeMonths === month){
+	(data.fruits[4].isRipe === true)
+} else {
+	(data.fruits[4].isRipe === false)
+}
+
+if (data.fruits[5].ripeMonths === month){
+	(data.fruits[5].isRipe === true)
+} else {
+	(data.fruits[5].isRipe === false)
+}
+
+if (data.fruits[6].ripeMonths === month){
+	(data.fruits[6].isRipe === true)
+} else {
+	(data.fruits[6].isRipe === false)
+}
+
+if (data.fruits[7].ripeMonths === month){
+	(data.fruits[7].isRipe === true)
+} else {
+	(data.fruits[7].isRipe === false)
+}
+
+if (data.fruits[8].ripeMonths === month){
+	(data.fruits[8].isRipe === true)
+} else {
+	(data.fruits[8].isRipe === false)
+}
+
+if (data.fruits[9].ripeMonths === month){
+	(data.fruits[9].isRipe === true)
+} else {
+	(data.fruits[9].isRipe === false)
+}
+
+if (data.fruits[10].ripeMonths === month){
+	(data.fruits[10].isRipe === true)
+} else {
+	(data.fruits[10].isRipe === false)
+}
+
+if (data.fruits[11].ripeMonths === month){
+	(data.fruits[11].isRipe === true)
+} else {
+	(data.fruits[11].isRipe === false)
+}
+
+if (data.fruits[12].ripeMonths === month){
+	(data.fruits[12].isRipe === true)
+} else {
+	(data.fruits[12].isRipe === false)
+}
+
+if (data.fruits[13].ripeMonths === month){
+	(data.fruits[13].isRipe === true)
+} else {
+	(data.fruits[13].isRipe === false)
+}
+
+if (data.fruits[14].ripeMonths === month){
+	(data.fruits[14].isRipe === true)
+} else {
+	(data.fruits[14].isRipe === false)
+}
+
+if (data.fruits[15].ripeMonths === month){
+	(data.fruits[15].isRipe === true)
+} else {
+	(data.fruits[15].isRipe === false)
+}
+
+if (data.fruits[16].ripeMonths === month){
+	(data.fruits[16].isRipe === true)
+} else {
+	(data.fruits[16].isRipe === false)
+}
+
+console.log (data.fruits[0].isRipe)
+
+console.log (data.fruits[1].isRipe)
 
 console.log (data.fruits[2].isRipe)
+
+console.log (data.fruits[3].isRipe)
+
+console.log (data.fruits[4].isRipe)
+
+console.log (data.fruits[5].isRipe)
+
+console.log (data.fruits[6].isRipe)
+
+console.log (data.fruits[7].isRipe)
+
+console.log (data.fruits[8].isRipe)
+
+console.log (data.fruits[9].isRipe)
+
+console.log (data.fruits[10].isRipe)
+
+console.log (data.fruits[11].isRipe)
+
+console.log (data.fruits[12].isRipe)
+
+console.log (data.fruits[13].isRipe)
+
+console.log (data.fruits[14].isRipe)
+
+console.log (data.fruits[15].isRipe)
+
+console.log (data.fruits[16].isRipe)
