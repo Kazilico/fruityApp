@@ -101,6 +101,127 @@ var data = {"fruits":[
 
 console.log (data.fruits[5].ripeMonths);
 
+console.log (data.fruits[5].length);
+
+if (data.fruits[0].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[1].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[2].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[3].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[4].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[5].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[6].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[7].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[8].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[9].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[10].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[11].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[12].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[13].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[14].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[15].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+
+if (data.fruits[16].ripeMonths.indexOf(month) > -1) {
+
+	console.log (true)
+} else {
+	console.log (false)
+}
+/*
 if (data.fruits[0].ripeMonths === month){
 	(data.fruits[0].isRipe === true)
 } else {
@@ -236,3 +357,5 @@ console.log (data.fruits[14].isRipe)
 console.log (data.fruits[15].isRipe)
 
 console.log (data.fruits[16].isRipe)
+
+*/
