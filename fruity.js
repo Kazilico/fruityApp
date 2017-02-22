@@ -97,129 +97,131 @@ var data = {"fruits":[
 			},
 ]}
 
-
+/*
+console.log (data)
 
 console.log (data.fruits[5].ripeMonths);
 
 console.log (data.fruits[5].length);
+*/
 
 if (data.fruits[0].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[0].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[0].isRipe)
 }
 
 if (data.fruits[1].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[1].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[1].isRipe)
 }
 
 if (data.fruits[2].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[2].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[2].isRipe)
 }
 
 if (data.fruits[3].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[3].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[3].isRipe)
 }
 
 if (data.fruits[4].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[4].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[4].isRipe)
 }
 
 if (data.fruits[5].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[5].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[5].isRipe)
 }
 
 if (data.fruits[6].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[6].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[6].isRipe)
 }
 
 if (data.fruits[7].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[7].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[7].isRipe)
 }
 
 if (data.fruits[8].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[8].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[8].isRipe)
 }
 
 if (data.fruits[9].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[9].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[9].isRipe)
 }
 
 if (data.fruits[10].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[10].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[10].isRipe)
 }
 
 if (data.fruits[11].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[11].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[11].isRipe)
 }
 
 if (data.fruits[12].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[12].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[12].isRipe)
 }
 
 if (data.fruits[13].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[13].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[13].isRipe)
 }
 
 if (data.fruits[14].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[14].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[14].isRipe)
 }
 
 if (data.fruits[15].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[15].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[15].isRipe)
 }
 
 if (data.fruits[16].ripeMonths.indexOf(month) > -1) {
 
-	console.log (true)
+	console.log (!data.fruits[16].isRipe)
 } else {
-	console.log (false)
+	console.log (data.fruits[16].isRipe)
 }
 /*
 if (data.fruits[0].ripeMonths === month){
