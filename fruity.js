@@ -104,125 +104,128 @@ console.log (data.fruits[5].ripeMonths);
 
 console.log (data.fruits[5].length);
 */
+	if (data.fruits[0].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[0].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[0].isRipe)
+	} else {
+		(data.fruits[0].isRipe)
+	}
 
-	console.log (!data.fruits[0].isRipe)
-} else {
-	console.log (data.fruits[0].isRipe)
-}
+	if (data.fruits[1].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[1].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[1].isRipe)
+	} else {
+		(data.fruits[1].isRipe)
+	}
 
-	console.log (!data.fruits[1].isRipe)
-} else {
-	console.log (data.fruits[1].isRipe)
-}
+	if (data.fruits[2].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[2].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[2].isRipe)
+	} else {
+		(data.fruits[2].isRipe)
+	}
 
-	console.log (!data.fruits[2].isRipe)
-} else {
-	console.log (data.fruits[2].isRipe)
-}
+	if (data.fruits[3].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[3].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[3].isRipe)
+	} else {
+		(data.fruits[3].isRipe)
+	}
 
-	console.log (!data.fruits[3].isRipe)
-} else {
-	console.log (data.fruits[3].isRipe)
-}
+	if (data.fruits[4].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[4].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[4].isRipe)
+	} else {
+		(data.fruits[4].isRipe)
+	}
 
-	console.log (!data.fruits[4].isRipe)
-} else {
-	console.log (data.fruits[4].isRipe)
-}
+	if (data.fruits[5].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[5].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[5].isRipe)
+	} else {
+		(data.fruits[5].isRipe)
+	}
 
-	console.log (!data.fruits[5].isRipe)
-} else {
-	console.log (data.fruits[5].isRipe)
-}
+	if (data.fruits[6].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[6].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[6].isRipe)
+	} else {
+		(data.fruits[6].isRipe)
+	}
 
-	console.log (!data.fruits[6].isRipe)
-} else {
-	console.log (data.fruits[6].isRipe)
-}
+	if (data.fruits[7].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[7].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[7].isRipe)
+	} else {
+		(data.fruits[7].isRipe)
+	}
 
-	console.log (!data.fruits[7].isRipe)
-} else {
-	console.log (data.fruits[7].isRipe)
-}
+	if (data.fruits[8].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[8].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[8].isRipe)
+	} else {
+		(data.fruits[8].isRipe)
+	}
 
-	console.log (!data.fruits[8].isRipe)
-} else {
-	console.log (data.fruits[8].isRipe)
-}
+	if (data.fruits[9].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[9].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[9].isRipe)
+	} else {
+		(data.fruits[9].isRipe)
+	}
 
-	console.log (!data.fruits[9].isRipe)
-} else {
-	console.log (data.fruits[9].isRipe)
-}
+	if (data.fruits[10].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[10].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[10].isRipe)
+	} else {
+		(data.fruits[10].isRipe)
+	}
 
-	console.log (!data.fruits[10].isRipe)
-} else {
-	console.log (data.fruits[10].isRipe)
-}
+	if (data.fruits[11].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[11].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[11].isRipe)
+	} else {
+		(data.fruits[11].isRipe)
+	}
 
-	console.log (!data.fruits[11].isRipe)
-} else {
-	console.log (data.fruits[11].isRipe)
-}
+	if (data.fruits[12].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[12].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[12].isRipe)
+	} else {
+		(data.fruits[12].isRipe)
+	}
 
-	console.log (!data.fruits[12].isRipe)
-} else {
-	console.log (data.fruits[12].isRipe)
-}
+	if (data.fruits[13].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[13].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[13].isRipe)
+	} else {
+		(data.fruits[13].isRipe)
+	}
 
-	console.log (!data.fruits[13].isRipe)
-} else {
-	console.log (data.fruits[13].isRipe)
-}
+	if (data.fruits[14].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[14].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[14].isRipe)
+	} else {
+		(data.fruits[14].isRipe)
+	}
 
-	console.log (!data.fruits[14].isRipe)
-} else {
-	console.log (data.fruits[14].isRipe)
-}
+	if (data.fruits[15].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[15].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[15].isRipe)
+	} else {
+		(data.fruits[15].isRipe)
+	}
 
-	console.log (!data.fruits[15].isRipe)
-} else {
-	console.log (data.fruits[15].isRipe)
-}
+	if (data.fruits[16].ripeMonths.indexOf(month) > -1) {
 
-if (data.fruits[16].ripeMonths.indexOf(month) > -1) {
+		(!data.fruits[16].isRipe)
+	} else {
+		(data.fruits[16].isRipe)
+	}
 
-	console.log (!data.fruits[16].isRipe)
-} else {
-	console.log (data.fruits[16].isRipe)
-}
+
+
+
 /*
 if (data.fruits[0].ripeMonths === month){
 	(data.fruits[0].isRipe === true)

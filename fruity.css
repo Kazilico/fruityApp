@@ -1,3 +1,31 @@
+.header {
+	background-color: black;
+	height: 20vh;
+	width: 100%;
+}
+
+.title {
+	position: relative;
+	display: inline-block;
+	font-family: Arial;
+	color: #536595;
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.directions {
+	position: relative;
+	display: inline-block;
+	font-family: Arial;
+	color: white;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 25px;
+}
+
 .container {
 	background-color: #536595;
 }
