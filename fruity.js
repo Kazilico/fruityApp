@@ -9,218 +9,233 @@ if(mm<10) {
 month = mm;
 console.log (month)
 
-var data = {"fruits":[
+var data = 
+{
+	"fruits": [
 			{
-				"fruitName":"mulberries",
+				"name":"mulberries",
 				"ripeMonths": ["07", "08"],
 				"isRipe": false, 
 			},
 			{
-				"fruitName":"nectarines",
+				"name":"nectarines",
 				"ripeMonths": ["05", "06", "07", "08", "09", "10"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"oranges",
+				"name":"oranges",
 				"ripeMonths": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"peaches",
+				"name":"peaches",
 				"ripeMonths": ["05", "06", "07", "08", "09", "10"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"pecans",
+				"name":"pecans",
 				"ripeMonths": ["10"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"persimmons",
+				"name":"persimmons",
 				"ripeMonths": ["09", "10", "11"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"pistachios",
+				"name":"pistachios",
 				"ripeMonths": ["09", "10", "11"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"plums",
+				"name":"plums",
 				"ripeMonths": ["05", "06", "07", "08", "09", "10", "11"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"pomegranates",
+				"name":"pomegranates",
 				"ripeMonths": ["09", "10", "11", "12"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"pomelos",
+				"name":"pomelos",
 				"ripeMonths": ["01", "02", "03", "04", "11", "12"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"quinces",
+				"name":"quinces",
 				"ripeMonths": ["09", "10", "11"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"raspberries",
+				"name":"raspberries",
 				"ripeMonths": ["05", "06", "07", "08", "09", "10", "11"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"rhubard",
+				"name":"rhubard",
 				"ripeMonths": ["04", "05", "06", "07"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"strawberries",
+				"name":"strawberries",
 				"ripeMonths": ["03", "04", "05", "06", "07", "08", "09", "10", "11"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"tayberries",
+				"name":"tayberries",
 				"ripeMonths": ["06", "07", "08"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"tomatoes",
+				"name":"tomatoes",
 				"ripeMonths": ["06", "07", "08", "09", "10", "11"],
 				"isRipe": false,
 			},
 			{
-				"fruitName":"walnuts",
+				"name":"walnuts",
 				"ripeMonths": ["10"],
 				"isRipe": false,
 			},
-]}
+	]
+};
 
+for(var i = 0; i < data.fruits.length; i++)
+	{
+		var fruit = data.fruits[i];
+		var fruitName = fruit.name;
+		for(var j = 0; j < fruit.ripeMonths.length; j++)
+		{
+			var ripened = fruit.ripeMonths[j];
+		}
+	}
+
+
+console.log (ripened)
 /*
-console.log (data)
-
 console.log (data.fruits[5].ripeMonths);
 
 console.log (data.fruits[5].length);
 */
+
+
 	if (data.fruits[0].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[0].isRipe)
+		console.log (!data.fruits[0].isRipe)
 	} else {
-		(data.fruits[0].isRipe)
+		console.log (data.fruits[0].isRipe)
 	}
 
 	if (data.fruits[1].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[1].isRipe)
+		console.log (!data.fruits[1].isRipe)
 	} else {
-		(data.fruits[1].isRipe)
+		console.log (data.fruits[1].isRipe)
 	}
 
 	if (data.fruits[2].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[2].isRipe)
+		console.log (!data.fruits[2].isRipe)
 	} else {
-		(data.fruits[2].isRipe)
+		console.log (data.fruits[2].isRipe)
 	}
 
 	if (data.fruits[3].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[3].isRipe)
+		console.log (!data.fruits[3].isRipe)
 	} else {
-		(data.fruits[3].isRipe)
+		console.log (data.fruits[3].isRipe)
 	}
 
 	if (data.fruits[4].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[4].isRipe)
+		console.log (!data.fruits[4].isRipe)
 	} else {
-		(data.fruits[4].isRipe)
+		console.log (data.fruits[4].isRipe)
 	}
 
 	if (data.fruits[5].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[5].isRipe)
+		console.log (!data.fruits[5].isRipe)
 	} else {
-		(data.fruits[5].isRipe)
+		console.log (data.fruits[5].isRipe)
 	}
 
 	if (data.fruits[6].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[6].isRipe)
+		console.log (!data.fruits[6].isRipe)
 	} else {
-		(data.fruits[6].isRipe)
+		console.log (data.fruits[6].isRipe)
 	}
 
 	if (data.fruits[7].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[7].isRipe)
+		console.log (!data.fruits[7].isRipe)
 	} else {
-		(data.fruits[7].isRipe)
+		console.log (data.fruits[7].isRipe)
 	}
 
 	if (data.fruits[8].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[8].isRipe)
+		console.log (!data.fruits[8].isRipe)
 	} else {
-		(data.fruits[8].isRipe)
+		console.log (data.fruits[8].isRipe)
 	}
 
 	if (data.fruits[9].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[9].isRipe)
+		console.log (!data.fruits[9].isRipe)
 	} else {
-		(data.fruits[9].isRipe)
+		console.log (data.fruits[9].isRipe)
 	}
 
 	if (data.fruits[10].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[10].isRipe)
+		console.log (!data.fruits[10].isRipe)
 	} else {
-		(data.fruits[10].isRipe)
+		console.log (data.fruits[10].isRipe)
 	}
 
 	if (data.fruits[11].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[11].isRipe)
+		console.log (!data.fruits[11].isRipe)
 	} else {
-		(data.fruits[11].isRipe)
+		console.log (data.fruits[11].isRipe)
 	}
 
 	if (data.fruits[12].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[12].isRipe)
+		console.log (!data.fruits[12].isRipe)
 	} else {
-		(data.fruits[12].isRipe)
+		console.log (data.fruits[12].isRipe)
 	}
 
 	if (data.fruits[13].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[13].isRipe)
+		console.log (!data.fruits[13].isRipe)
 	} else {
-		(data.fruits[13].isRipe)
+		console.log (data.fruits[13].isRipe)
 	}
 
 	if (data.fruits[14].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[14].isRipe)
+		console.log (!data.fruits[14].isRipe)
 	} else {
-		(data.fruits[14].isRipe)
+		console.log (data.fruits[14].isRipe)
 	}
 
 	if (data.fruits[15].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[15].isRipe)
+		console.log (!data.fruits[15].isRipe)
 	} else {
-		(data.fruits[15].isRipe)
+		console.log (data.fruits[15].isRipe)
 	}
 
 	if (data.fruits[16].ripeMonths.indexOf(month) > -1) {
 
-		(!data.fruits[16].isRipe)
+		console.log (!data.fruits[16].isRipe)
 	} else {
-		(data.fruits[16].isRipe)
+		console.log (data.fruits[16].isRipe)
 	}
 
 
