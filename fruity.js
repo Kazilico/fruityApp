@@ -9,9 +9,8 @@ if(mm<10) {
 month = mm;
 console.log (month)
 
-var data = 
-{
-	"fruits": [
+var fruits = [
+	 		
 			{
 				"name":"mulberries",
 				"ripeMonths": ["07", "08"],
@@ -97,9 +96,9 @@ var data =
 				"ripeMonths": ["10"],
 				"isRipe": false,
 			},
-	]
-};
+];
 
+/*
 for(var i = 0; i < data.fruits.length; i++)
 	{
 		var fruit = data.fruits[i];
@@ -112,130 +111,133 @@ for(var i = 0; i < data.fruits.length; i++)
 
 
 console.log (ripened)
+*/
+console.log (fruits[5].ripeMonths);
 /*
-console.log (data.fruits[5].ripeMonths);
-
-console.log (data.fruits[5].length);
+console.log (fruits[5].length);
 */
 
+for (i = 0; i < fruits.length; i++) {
+console.log (fruits(i).ripeMonts)
+}
 
-	if (data.fruits[0].ripeMonths.indexOf(month) > -1) {
+	if (fruits[0].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[0].isRipe)
+		console.log (!fruits[0].isRipe)
 	} else {
-		console.log (data.fruits[0].isRipe)
+		console.log (fruits[0].isRipe)
 	}
 
 	if (data.fruits[1].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[1].isRipe)
+		console.log (!fruits[1].isRipe)
 	} else {
-		console.log (data.fruits[1].isRipe)
+		console.log (fruits[1].isRipe)
 	}
 
 	if (data.fruits[2].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[2].isRipe)
+		console.log (!fruits[2].isRipe)
 	} else {
-		console.log (data.fruits[2].isRipe)
+		console.log (fruits[2].isRipe)
 	}
 
 	if (data.fruits[3].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[3].isRipe)
+		console.log (!fruits[3].isRipe)
 	} else {
-		console.log (data.fruits[3].isRipe)
+		console.log (fruits[3].isRipe)
 	}
 
 	if (data.fruits[4].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[4].isRipe)
+		console.log (!fruits[4].isRipe)
 	} else {
-		console.log (data.fruits[4].isRipe)
+		console.log (fruits[4].isRipe)
 	}
 
 	if (data.fruits[5].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[5].isRipe)
+		console.log (!fruits[5].isRipe)
 	} else {
-		console.log (data.fruits[5].isRipe)
+		console.log (fruits[5].isRipe)
 	}
 
 	if (data.fruits[6].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[6].isRipe)
+		console.log (!fruits[6].isRipe)
 	} else {
-		console.log (data.fruits[6].isRipe)
+		console.log (fruits[6].isRipe)
 	}
 
 	if (data.fruits[7].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[7].isRipe)
+		console.log (!fruits[7].isRipe)
 	} else {
-		console.log (data.fruits[7].isRipe)
+		console.log (fruits[7].isRipe)
 	}
 
 	if (data.fruits[8].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[8].isRipe)
+		console.log (!fruits[8].isRipe)
 	} else {
-		console.log (data.fruits[8].isRipe)
+		console.log (fruits[8].isRipe)
 	}
 
 	if (data.fruits[9].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[9].isRipe)
+		console.log (!fruits[9].isRipe)
 	} else {
-		console.log (data.fruits[9].isRipe)
+		console.log (fruits[9].isRipe)
 	}
 
 	if (data.fruits[10].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[10].isRipe)
+		console.log (!fruits[10].isRipe)
 	} else {
-		console.log (data.fruits[10].isRipe)
+		console.log (fruits[10].isRipe)
 	}
 
 	if (data.fruits[11].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[11].isRipe)
+		console.log (!fruits[11].isRipe)
 	} else {
-		console.log (data.fruits[11].isRipe)
+		console.log (fruits[11].isRipe)
 	}
 
 	if (data.fruits[12].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[12].isRipe)
+		console.log (!fruits[12].isRipe)
 	} else {
-		console.log (data.fruits[12].isRipe)
+		console.log (fruits[12].isRipe)
 	}
 
 	if (data.fruits[13].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[13].isRipe)
+		console.log (!fruits[13].isRipe)
 	} else {
-		console.log (data.fruits[13].isRipe)
+		console.log (fruits[13].isRipe)
 	}
 
 	if (data.fruits[14].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[14].isRipe)
+		console.log (!fruits[14].isRipe)
 	} else {
-		console.log (data.fruits[14].isRipe)
+		console.log (fruits[14].isRipe)
 	}
 
 	if (data.fruits[15].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[15].isRipe)
+		console.log (!fruits[15].isRipe)
 	} else {
-		console.log (data.fruits[15].isRipe)
+		console.log (fruits[15].isRipe)
 	}
 
 	if (data.fruits[16].ripeMonths.indexOf(month) > -1) {
 
-		console.log (!data.fruits[16].isRipe)
+		console.log (!fruits[16].isRipe)
 	} else {
-		console.log (data.fruits[16].isRipe)
+		console.log (fruits[16].isRipe)
 	}
 
 
