@@ -98,19 +98,15 @@ var fruits = [
 			},
 ];
 
-var ripeFruits= [];
-
+console.log (fruits)
 	
 		for (i = 0; i < fruits.length; i++) {
 			if (fruits[i].ripeMonths.indexOf(month) > -1) {
 
-				(!fruits[i].isRipe.push)
+				(fruits[i].isRipe) = true
 			} else {
-				(fruits[i].isRipe.push)
+				(fruits[i].isRipe) = false
 			}
 
 		};
 	
-
-
-console.log(ripeFruits)
