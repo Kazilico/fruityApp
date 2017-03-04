@@ -97,16 +97,19 @@ var fruits = [
 				"isRipe": false,
 			},
 ];
+	
+for (i = 0; i < fruits.length; i++) {
+	if (fruits[i].ripeMonths.indexOf(month) > -1) {
 
+		(fruits[i].isRipe) = true;
+		document.querySelector(".fruit." + fruits[i].name + " .layer").classList.add("inseason");
+	} else {
+		(fruits[i].isRipe) = false;
+		/*
+		document.querySelector(".fruit." + fruits[i].name + " .layer").classList.remove("inseason");
+		*/
+	}
+
+};
+	
 console.log (fruits)
-	
-		for (i = 0; i < fruits.length; i++) {
-			if (fruits[i].ripeMonths.indexOf(month) > -1) {
-
-				(fruits[i].isRipe) = true
-			} else {
-				(fruits[i].isRipe) = false
-			}
-
-		};
-	
