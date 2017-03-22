@@ -114,7 +114,7 @@ function render() {
         if (fruits[i].isRipe == true) {
         	fruit.setAttribute('class', 'ripe_fruit');
 				} else {
-          fruit.setAttribute('class', 'fruit');
+          fruit.setAttribute('class', ('fruit ' + fruits[i].name));
         }
         
         var fruitText = document.createElement('span');

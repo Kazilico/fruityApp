@@ -36,6 +36,7 @@
 .fruit {
 	position: relative;
 	display: inline-block;
+	font-family: Arial;
 	width: 24%;
 	height: 25vh;
 	padding-top:1%;
@@ -127,75 +128,75 @@
 	margin-left:auto;
 	margin-right:auto;
 }
-.mulberriesPic {
+.mulberries {
 	background-image: url(images/Mulberries.jpg);
 }
 
-.nectarinesPic {
+.nectarines {
 	background-image: url(images/Nectarines.jpg);
 }
 
-.orangesPic {
+.oranges {
 	background-image: url(images/Oranges.jpg);
 }
 
-.peachesPic {
+.peaches {
 	background-image: url(images/Peaches.jpg);
 }
 
-.pecansPic {
+.pecans {
 	background-image: url(images/Pecans.jpg);
 }
 
-.persimmonsPic {
+.persimmons {
 	background-image: url(images/Persimmons.jpg);
 }
 
-.pistachiosPic {
+.pistachios {
 	background-image: url(images/Pistachios.jpg);
 }
 
-.plumsPic {
+.plums {
 	background-image: url(images/Plums.jpg);
 }
 
-.pluotsPic {
+.pluots {
 	background-image: url(images/Pluots.jpg);
 }
 
-.pomegranatesPic {
+.pomegranates {
 	background-image: url(images/Pomegranates.jpg);
 }
 
-.pomelosPic {
+.pomelos {
 	background-image: url(images/Pomelos.jpg);
 }
 
-.quincesPic {
+.quinces {
 	background-image: url(images/Quinces.jpg);
 }
 
-.raspberriesPic {
+.raspberries {
 	background-image: url(images/Raspberries.jpg);
 }
 
-.rhubarbPic {
+.rhubarb {
 	background-image: url(images/Rhubarb.jpg);
 }
 
-.strawberriesPic {
+.strawberries {
 	background-image: url(images/Strawberries.jpg);
 }
 
-.tayberriesPic {
+.tayberries {
 	background-image: url(images/Tayberries.jpg);
 }
 
-.tomatoesPic {
+.tomatoes {
 	background-image: url(images/Tomatoes.jpg);
 }
 
-.walnutsPic {
+.walnuts {
 	background-image: url(images/Walnuts.jpg);
 }
 
