@@ -1,87 +1,87 @@
 var fruits = [
 	 		
 	{
-		"name":"mulberries",
+		"name":"Mulberries",
 		"ripeMonths": ["07", "08"],
 		"isRipe": false, 
 	},
 	{
-		"name":"nectarines",
+		"name":"Nectarines",
 		"ripeMonths": ["05", "06", "07", "08", "09", "10"],
 		"isRipe": false,
 	},
 	{
-		"name":"oranges",
+		"name":"Oranges",
 		"ripeMonths": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
 		"isRipe": false,
 	},
 	{
-		"name":"peaches",
+		"name":"Peaches",
 		"ripeMonths": ["05", "06", "07", "08", "09", "10"],
 		"isRipe": false,
 	},
 	{
-		"name":"pecans",
+		"name":"Pecans",
 		"ripeMonths": ["10"],
 		"isRipe": false,
 	},
 	{
-		"name":"persimmons",
+		"name":"Persimmons",
 		"ripeMonths": ["09", "10", "11"],
 		"isRipe": false,
 	},
 	{
-		"name":"pistachios",
+		"name":"Pistachios",
 		"ripeMonths": ["09", "10", "11"],
 		"isRipe": false,
 	},
 	{
-		"name":"plums",
+		"name":"Plums",
 		"ripeMonths": ["05", "06", "07", "08", "09", "10", "11"],
 		"isRipe": false,
 	},
 	{
-		"name":"pomegranates",
+		"name":"Pomegranates",
 		"ripeMonths": ["09", "10", "11", "12"],
 		"isRipe": false,
 	},
 	{
-		"name":"pomelos",
+		"name":"Pomelos",
 		"ripeMonths": ["01", "02", "03", "04", "11", "12"],
 		"isRipe": false,
 	},
 	{
-		"name":"quinces",
+		"name":"Quinces",
 		"ripeMonths": ["09", "10", "11"],
 		"isRipe": false,
 	},
 	{
-		"name":"raspberries",
+		"name":"Raspberries",
 		"ripeMonths": ["05", "06", "07", "08", "09", "10", "11"],
 		"isRipe": false,
 	},
 	{
-		"name":"rhubard",
+		"name":"Rhubarb",
 		"ripeMonths": ["04", "05", "06", "07"],
 		"isRipe": false,
 	},
 	{
-		"name":"strawberries",
+		"name":"Strawberries",
 		"ripeMonths": ["03", "04", "05", "06", "07", "08", "09", "10", "11"],
 		"isRipe": false,
 	},
 	{
-		"name":"tayberries",
+		"name":"Tayberries",
 		"ripeMonths": ["06", "07", "08"],
 		"isRipe": false,
 	},
 	{
-		"name":"tomatoes",
+		"name":"Tomatoes",
 		"ripeMonths": ["06", "07", "08", "09", "10", "11"],
 		"isRipe": false,
 	},
 	{
-		"name":"walnuts",
+		"name":"Walnuts",
 		"ripeMonths": ["10"],
 		"isRipe": false,
 	},
@@ -112,7 +112,7 @@ function render() {
         fruit.setAttribute('id', fruits[i].name);
         
         if (fruits[i].isRipe == true) {
-        	fruit.setAttribute('class', 'ripe_fruit');
+        	fruit.setAttribute('class', ('ripeFruit ' + fruits[i].name + ' layer'));
 				} else {
           fruit.setAttribute('class', ('fruit ' + fruits[i].name));
         }

@@ -1,7 +1,12 @@
+body {
+	background-color: #536595;
+}
+
 .header {
 	background-color: black;
 	height: 20vh;
 	width: 100%;
+	margin-bottom: 10px;
 }
 
 .title {
@@ -26,93 +31,41 @@
 	padding-top: 25px;
 }
 
-.container {
-	background-color: #536595;
-}
-
-.fruitPic {
-	position: relative;
-}
 .fruit {
 	position: relative;
 	display: inline-block;
 	font-family: Arial;
-	width: 24%;
-	height: 25vh;
-	padding-top:1%;
-	margin-bottom: 2%
+	width: 21%;
+	height: 180px;
+	padding-top:4%;
+	padding-bottom:1%;
+	padding-left: 2%;
+	margin-bottom: 1%;
+	top:25px;
+	background-repeat: no-repeat;
 }
 
-.mulberries {
-
+.ripeFruit {
+	position: relative;
+	display: inline-block;
+	font-family: Arial;
+	width: 21%;
+	height: 180px;
+	z-index: 0;
+	padding-top:4%;
+	padding-bottom: 1%:;
+	padding-left: 2%;
+	margin-bottom: 1%;
+	top: 25px;
+	background-repeat: no-repeat;
 }
 
-.nectarines {
-
-}
-
-.oranges {
-
-}
-
-.peaches {
-
-}
-
-.pecans {
-
-}
-
-.persimmons {
-
-}
-
-.pistachios {
-
-}
-
-.plums {
-
-}
-
-.pluots {
-
-}
-
-.pomegranates {
-
-}
-
-.pomelos {
-
-}
-
-.quinces {
-
-}
-
-.raspberries {
-
-}
-
-.rhubarb {
-
-}
-
-.strawberries {
-
-}
-
-.tayberries {
-
-}
-
-.tomatoes {
-
-}
-
-.walnuts {
-
+.layer {
+    background-color: rgba(15, 15, 15, 0.5);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 .fruitText {
@@ -120,96 +73,85 @@
 	display: inline-block;
 	font-family: Arial;
 	color: white;
+	padding-top:1%;
+	top: -60px;
+	left: 25%;
 }
 
-.mulberriesPic, .nectarinesPic, .orangesPic, .peachesPic, .pecansPic, .persimmonsPic, .pistachiosPic, .plumsPic, .pluotsPic, .pomegranatesPic, .pomelosPic, .quincesPic, .raspberriesPic, .rhubarbPic, .strawberriesPic, .tayberriesPic, .tomatoesPic, .walnutsPic {
+.Mulberries, .Nectarines, .Oranges, .Peaches, .Pecans, .Persimmons, .Pistachios, .Plums, .Pluots, .Pomegranates, .Pomelos, .Quinces, .Raspberries, .Rhubarb, .Strawberries, .Tayberries, .Tomatoes, .Walnuts {
 	width: 180px;
 	height: 180px;
 	margin-left:auto;
 	margin-right:auto;
 }
-.mulberries {
+.Mulberries {
 	background-image: url(images/Mulberries.jpg);
 }
 
-.nectarines {
+.Nectarines {
 	background-image: url(images/Nectarines.jpg);
 }
 
-.oranges {
+.Oranges {
 	background-image: url(images/Oranges.jpg);
 }
 
-.peaches {
+.Peaches {
 	background-image: url(images/Peaches.jpg);
 }
 
-.pecans {
+.Pecans {
 	background-image: url(images/Pecans.jpg);
 }
 
-.persimmons {
+.Persimmons {
 	background-image: url(images/Persimmons.jpg);
 }
 
-.pistachios {
+.Pistachios {
 	background-image: url(images/Pistachios.jpg);
 }
 
-.plums {
+.Plums {
 	background-image: url(images/Plums.jpg);
 }
 
-.pluots {
+.Pluots {
 	background-image: url(images/Pluots.jpg);
 }
 
-.pomegranates {
+.Pomegranates {
 	background-image: url(images/Pomegranates.jpg);
 }
 
-.pomelos {
+.Pomelos {
 	background-image: url(images/Pomelos.jpg);
 }
 
-.quinces {
+.Quinces {
 	background-image: url(images/Quinces.jpg);
 }
 
-.raspberries {
+.Raspberries {
 	background-image: url(images/Raspberries.jpg);
 }
 
-.rhubarb {
+.Rhubarb {
 	background-image: url(images/Rhubarb.jpg);
 }
 
-.strawberries {
+.Strawberries {
 	background-image: url(images/Strawberries.jpg);
 }
 
-.tayberries {
+.Tayberries {
 	background-image: url(images/Tayberries.jpg);
 }
 
-.tomatoes {
+.Tomatoes {
 	background-image: url(images/Tomatoes.jpg);
 }
 
-.walnuts {
+.Walnuts {
 	background-image: url(images/Walnuts.jpg);
-}
-
-.layer {
-    background-color: rgba(15, 15, 15, 0.5);
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.highlight:hover {
-	background-color: khaki;
 }
