@@ -57,7 +57,6 @@ body {
 	margin-bottom: 1%;
 	top: 25px;
 	background-repeat: no-repeat;
-	background-color: rgba(15, 15, 15, 0.5);
 }
 
 .fruitText {
@@ -70,6 +69,84 @@ body {
 	left: 25%;
 }
 
+.MulberriesRipe, .NectarinesRipe, .OrangesRipe, .PeachesRipe, .PecansRipe, .PersimmonsRipe, .PistachiosRipe, .PlumsRipe, .PluotsRipe, .PomegranatesRipe, .PomelosRipe, .QuincesRipe, .RaspberriesRipe, .RhubarbRipe, .StrawberriesRipe, .TayberriesRipe, .TomatoesRipe, .WalnutsRipe {
+	width: 180px;
+	height: 180px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.MulberriesRipe {
+	background-image: url(images/Mulberries.jpg);
+}
+
+.NectarinesRipe {
+	background-image: url(images/Nectarines.jpg);
+}
+
+.OrangesRipe {
+	background-image: url(images/Oranges.jpg);
+}
+
+.PeachesRipe {
+	background-image: url(images/Peaches.jpg);
+}
+
+.PecansRipe {
+	background-image: url(images/Pecans.jpg);
+}
+
+.PersimmonsRipe {
+	background-image: url(images/Persimmons.jpg);
+}
+
+.PistachiosRipe {
+	background-image: url(images/Pistachios.jpg);
+}
+
+.PlumsRipe {
+	background-image: url(images/Plums.jpg);
+}
+
+.PluotsRipe {
+	background-image: url(images/Pluots.jpg);
+}
+
+.PomegranatesRipe {
+	background-image: url(images/Pomegranates.jpg);
+}
+
+.PomelosRipe {
+	background-image: url(images/Pomelos.jpg);
+}
+
+.QuincesRipe {
+	background-image: url(images/Quinces.jpg);
+}
+
+.RaspberriesRipe {
+	background-image: url(images/Raspberries.jpg);
+}
+
+.RhubarbRipe {
+	background-image: url(images/Rhubarb.jpg);
+}
+
+.StrawberriesRipe {
+	background-image: url(images/Strawberries.jpg);
+}
+
+.TayberriesRipe {
+	background-image: url(images/Tayberries.jpg);
+}
+
+.TomatoesRipe {
+	background-image: url(images/Tomatoes.jpg);
+}
+
+.WalnutsRipe {
+	background-image: url(images/Walnuts.jpg);
+}
+
 .Mulberries, .Nectarines, .Oranges, .Peaches, .Pecans, .Persimmons, .Pistachios, .Plums, .Pluots, .Pomegranates, .Pomelos, .Quinces, .Raspberries, .Rhubarb, .Strawberries, .Tayberries, .Tomatoes, .Walnuts {
 	width: 180px;
 	height: 180px;
@@ -77,73 +154,73 @@ body {
 	margin-right:auto;
 }
 .Mulberries {
-	background-image: url(images/Mulberries.jpg);
+	background-image: url(images/MulberriesDark.jpg);
 }
 
 .Nectarines {
-	background-image: url(images/Nectarines.jpg);
+	background-image: url(images/NectarinesDark.jpg);
 }
 
 .Oranges {
-	background-image: url(images/Oranges.jpg);
+	background-image: url(images/OrangesDark.jpg);
 }
 
 .Peaches {
-	background-image: url(images/Peaches.jpg);
+	background-image: url(images/PeachesDark.jpg);
 }
 
 .Pecans {
-	background-image: url(images/Pecans.jpg);
+	background-image: url(images/PecansDark.jpg);
 }
 
 .Persimmons {
-	background-image: url(images/Persimmons.jpg);
+	background-image: url(images/PersimmonsDark.jpg);
 }
 
 .Pistachios {
-	background-image: url(images/Pistachios.jpg);
+	background-image: url(images/PistachiosDark.jpg);
 }
 
 .Plums {
-	background-image: url(images/Plums.jpg);
+	background-image: url(images/PlumsDark.jpg);
 }
 
 .Pluots {
-	background-image: url(images/Pluots.jpg);
+	background-image: url(images/PluotsDark.jpg);
 }
 
 .Pomegranates {
-	background-image: url(images/Pomegranates.jpg);
+	background-image: url(images/PomegranatesDark.jpg);
 }
 
 .Pomelos {
-	background-image: url(images/Pomelos.jpg);
+	background-image: url(images/PomelosDark.jpg);
 }
 
 .Quinces {
-	background-image: url(images/Quinces.jpg);
+	background-image: url(images/QuincesDark.jpg);
 }
 
 .Raspberries {
-	background-image: url(images/Raspberries.jpg);
+	background-image: url(images/RaspberriesDark.jpg);
 }
 
 .Rhubarb {
-	background-image: url(images/Rhubarb.jpg);
+	background-image: url(images/RhubarbDark.jpg);
 }
 
 .Strawberries {
-	background-image: url(images/Strawberries.jpg);
+	background-image: url(images/StrawberriesDark.jpg);
 }
 
 .Tayberries {
-	background-image: url(images/Tayberries.jpg);
+	background-image: url(images/TayberriesDark.jpg);
 }
 
 .Tomatoes {
-	background-image: url(images/Tomatoes.jpg);
+	background-image: url(images/TomatoesDark.jpg);
 }
 
 .Walnuts {
-	background-image: url(images/Walnuts.jpg);
+	background-image: url(images/WalnutsDark.jpg);
 }

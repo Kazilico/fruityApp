@@ -112,19 +112,9 @@ function render() {
         fruit.setAttribute('id', fruits[i].name);
         
         if (fruits[i].isRipe == true) {
-        	fruit.setAttribute('class', ('ripeFruit ' + fruits[i].name + ' layer'));
+        	fruit.setAttribute('class', ('ripeFruit ' + fruits[i].name + 'Ripe'));
 				} else {
           fruit.setAttribute('class', ('fruit ' + fruits[i].name));
-        }
-
-        var fruitRipeLayer = document.createElement('span');
-        fruitRipeLayer.setAttribute('class', 'layer');
-
-
-        if (fruits[i].isRipe == true) {
-        	fruitRipeLayer.setAttribute('class', 'layer');
-        		} else {
-        	fruitRipeLayer.setAttribute('class', 'noLayer');
         }
         
         var fruitText = document.createElement('span');
