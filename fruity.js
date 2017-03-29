@@ -175,14 +175,19 @@ function render() {
         fruit.appendChild(fruitText);
         document.body.appendChild(fruit);
     }   
-    for (i = 0; i < fruits.engMonths.length; i++) {
+    for (var i in fruits.engMonths) {
         var ripeMonths = document.createElement("ul");
-        ripeMonths.setAttribute('id', fruits[i]name + "RipeMonths");
+        ripeMonths.setAttribute('id', fruits[i].name + "RipeMonths");
 
         var ripeMonthsText = document.createElement("li");
-        
-    }
+        ripeMonthsText.setAttribute("class", "ripeMonthsText");
 
+        var ripeTextMonthsNode = document.createTextNode(fruits[i].engMonths);
+        ripeTextMonths.appendChild(ripeTextMonthsNode);
+
+        fruit.appendChild(ripeMonthsText);
+        document.body.appendChild(ripeMonths);
+    }
 }
 
 render();
