@@ -93,40 +93,40 @@ for (i = 0; i < fruits.length; i++) {
 function engMonth() {
     for (i = 0; i < fruits.length; i++) {
         if (fruits[i].ripeMonths.includes("01")) {
-            fruits[i].engMonths.push("January");
+            fruits[i].engMonths.push(" January");
         }
         if (fruits[i].ripeMonths.includes("02")) {
-            fruits[i].engMonths.push("February");
+            fruits[i].engMonths.push(" February");
         }
         if (fruits[i].ripeMonths.includes("03")) {
-            fruits[i].engMonths.push("March");
+            fruits[i].engMonths.push(" March");
         }
         if (fruits[i].ripeMonths.includes("04")) {
-            fruits[i].engMonths.push("April");
+            fruits[i].engMonths.push(" April");
         }
         if (fruits[i].ripeMonths.includes("05")) {
-            fruits[i].engMonths.push("May");
+            fruits[i].engMonths.push(" May");
         }
         if (fruits[i].ripeMonths.includes("06")) {
-            fruits[i].engMonths.push("June");
+            fruits[i].engMonths.push(" June");
         }
         if (fruits[i].ripeMonths.includes("07")) {
-            fruits[i].engMonths.push("July");
+            fruits[i].engMonths.push(" July");
         }
         if (fruits[i].ripeMonths.includes("08")) {
-            fruits[i].engMonths.push("August");
+            fruits[i].engMonths.push(" August");
         }
         if (fruits[i].ripeMonths.includes("09")) {
-            fruits[i].engMonths.push("September");
+            fruits[i].engMonths.push(" September");
         }
         if (fruits[i].ripeMonths.includes("10")) {
-            fruits[i].engMonths.push("October");
+            fruits[i].engMonths.push(" October");
         }
         if (fruits[i].ripeMonths.includes("11")) {
-            fruits[i].engMonths.push("November");
+            fruits[i].engMonths.push(" November");
         }
         if (fruits[i].ripeMonths.includes("12")) {
-            fruits[i].engMonths.push("December");
+            fruits[i].engMonths.push(" December");
         }
 
     }
@@ -134,11 +134,9 @@ function engMonth() {
 
 
 engMonth();
-console.log (fruits);
 
 var month = new Date();
 var mm = month.getMonth()+1;
-
 
 if (mm < 10) {
     mm = "0" + mm;
@@ -169,25 +167,22 @@ function render() {
         var fruitText = document.createElement("span");
         fruitText.setAttribute("class", "fruitText");
 
+        var ripeMonthsText = document.createElement("span");
+        ripeMonthsText.setAttribute("class", "ripeMonthsText");
+
         var fruitTextNode = document.createTextNode(fruits[i].name);
         fruitText.appendChild(fruitTextNode);
 
+        var ripeMonthsTextNode = document.createTextNode(fruits[i].engMonths);
+        ripeMonthsText.appendChild(ripeMonthsTextNode);
+
         fruit.appendChild(fruitText);
-        document.body.appendChild(fruit);
-    }   
-    for (var i in fruits.engMonths) {
-        var ripeMonths = document.createElement("ul");
-        ripeMonths.setAttribute('id', fruits[i].name + "RipeMonths");
-
-        var ripeMonthsText = document.createElement("li");
-        ripeMonthsText.setAttribute("class", "ripeMonthsText");
-
-        var ripeTextMonthsNode = document.createTextNode(fruits[i].engMonths);
-        ripeTextMonths.appendChild(ripeTextMonthsNode);
-
         fruit.appendChild(ripeMonthsText);
-        document.body.appendChild(ripeMonths);
-    }
+        document.body.appendChild(fruit);
+
+        console.log(fruits[i].engMonths);
+    }  
+    
 }
 
 render();

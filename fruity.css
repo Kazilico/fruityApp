@@ -69,6 +69,17 @@ body {
 	left: 25%;
 }
 
+.ripeMonthsText {
+	position: relative;
+	display: none;
+	font-family: Arial;
+	color: white;
+}
+
+:hover .ripeMonthsText {
+	display: inline-block;
+}
+
 .MulberriesRipe, .NectarinesRipe, .OrangesRipe, .PeachesRipe, .PecansRipe, .PersimmonsRipe, .PistachiosRipe, .PlumsRipe, .PluotsRipe, .PomegranatesRipe, .PomelosRipe, .QuincesRipe, .RaspberriesRipe, .RhubarbRipe, .StrawberriesRipe, .TayberriesRipe, .TomatoesRipe, .WalnutsRipe {
 	width: 180px;
 	height: 180px;
