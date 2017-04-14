@@ -168,7 +168,8 @@ function render() {
         fruitText.setAttribute("class", "fruitText");
 
         var ripeMonthsText = document.createElement("span");
-        ripeMonthsText.setAttribute("class", "ripeMonthsText");
+        ripeMonthsText.setAttribute("id", "engMonths");
+        ripeMonthsText.setAttribute("class", ("ripeMonthsText " + fruits[i].name + "Text"));
 
         var fruitTextNode = document.createTextNode(fruits[i].name);
         fruitText.appendChild(fruitTextNode);

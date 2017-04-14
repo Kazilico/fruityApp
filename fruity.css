@@ -69,15 +69,22 @@ body {
 	left: 25%;
 }
 
-.ripeMonthsText {
+.MulberriesText, .NectarinesText, .OrangesText, .PeachesText, .PecansText, .PersimmonsText, .PistachiosText, .PlumsText, .PluotsText, .PomegranatesText, .PomelosText, .QuincesText, .RaspberriesText, .RhubarbText, .StrawberriesText, .TayberriesText, .TomatoesText, .WalnutsText {
 	position: relative;
 	display: none;
 	font-family: Arial;
 	color: white;
 }
 
-:hover .ripeMonthsText {
+.MulberriesText:hover, .NectarinesText:hover, .OrangesText:hover, .PeachesText:hover, .PecansText:hover, .PersimmonsText:hover, .PistachiosText:hover, .PlumsText:hover, .PluotsText:hover, .PomegranatesText:hover, .PomelosText:hover, .QuincesText:hover, .RaspberriesText:hover, .RhubarbText:hover, .StrawberriesText:hover, .TayberriesText:hover, .TomatoesText:hover, .WalnutsText:hover {
 	display: inline-block;
+}
+
+.ripeMonthsText {
+	position: relative;
+	display: none;
+	font-family: Arial;
+	color: white;
 }
 
 .MulberriesRipe, .NectarinesRipe, .OrangesRipe, .PeachesRipe, .PecansRipe, .PersimmonsRipe, .PistachiosRipe, .PlumsRipe, .PluotsRipe, .PomegranatesRipe, .PomelosRipe, .QuincesRipe, .RaspberriesRipe, .RhubarbRipe, .StrawberriesRipe, .TayberriesRipe, .TomatoesRipe, .WalnutsRipe {
