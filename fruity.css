@@ -9,34 +9,28 @@ body {
 	margin-bottom: 10px;
 }
 
-.title {
+.title, .directions {
 	position: relative;
 	display: inline-block;
 	font-family: Arial;
-	color: #536595;
 	width: 100%;
-	font-size: 25px;
 	text-align: center;
 	padding-top: 20px;
 }
 
+.title {
+	color: #536595;
+	font-size: 25px;
+}
 .directions {
-	position: relative;
-	display: inline-block;
-	font-family: Arial;
 	color: white;
-	width: 100%;
 	font-size: 20px;
-	text-align: center;
-	padding-top: 25px;
 }
 
 .fruit {
 	position: relative;
 	display: inline-block;
 	font-family: Arial;
-	width: 21%;
-	height: 180px;
 	padding-top:4%;
 	padding-bottom:1%;
 	padding-left: 2%;
@@ -69,22 +63,20 @@ body {
 	left: 25%;
 }
 
-.MulberriesText, .NectarinesText, .OrangesText, .PeachesText, .PecansText, .PersimmonsText, .PistachiosText, .PlumsText, .PluotsText, .PomegranatesText, .PomelosText, .QuincesText, .RaspberriesText, .RhubarbText, .StrawberriesText, .TayberriesText, .TomatoesText, .WalnutsText {
-	position: relative;
-	display: none;
-	font-family: Arial;
-	color: white;
-}
-
-.MulberriesText:hover, .NectarinesText:hover, .OrangesText:hover, .PeachesText:hover, .PecansText:hover, .PersimmonsText:hover, .PistachiosText:hover, .PlumsText:hover, .PluotsText:hover, .PomegranatesText:hover, .PomelosText:hover, .QuincesText:hover, .RaspberriesText:hover, .RhubarbText:hover, .StrawberriesText:hover, .TayberriesText:hover, .TomatoesText:hover, .WalnutsText:hover {
-	display: inline-block;
-}
-
 .ripeMonthsText {
 	position: relative;
 	display: none;
 	font-family: Arial;
+	font-size: 11px;
 	color: white;
+}
+
+.fruit:hover .ripeMonthsText {
+	display: block;
+}
+
+.ripeFruit:hover .ripeMonthsText {
+	display: block;
 }
 
 .MulberriesRipe, .NectarinesRipe, .OrangesRipe, .PeachesRipe, .PecansRipe, .PersimmonsRipe, .PistachiosRipe, .PlumsRipe, .PluotsRipe, .PomegranatesRipe, .PomelosRipe, .QuincesRipe, .RaspberriesRipe, .RhubarbRipe, .StrawberriesRipe, .TayberriesRipe, .TomatoesRipe, .WalnutsRipe {

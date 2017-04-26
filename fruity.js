@@ -88,6 +88,7 @@ var fruits = [
 
 for (i = 0; i < fruits.length; i++) {
     fruits[i].engMonths = [];
+
 }
 
 function engMonth() {
@@ -128,8 +129,8 @@ function engMonth() {
         if (fruits[i].ripeMonths.includes("12")) {
             fruits[i].engMonths.push(" December");
         }
-
     }
+
 }
 
 
@@ -140,6 +141,7 @@ var mm = month.getMonth()+1;
 
 if (mm < 10) {
     mm = "0" + mm;
+
 }
 
 month = mm;
@@ -154,10 +156,14 @@ for (i = 0; i < fruits.length; i++) {
 }
 
 function render() {
+    var fruitList = document.createElement("div");
+
     for (i = 0; i < fruits.length; i++) {
-        var fruit = document.createElement("div");
+        var fruit = document.createElement("span");
+
+/* use if id is ever needed
         fruit.setAttribute('id', fruits[i].name);
-        
+*/        
         if (fruits[i].isRipe == true) {
             fruit.setAttribute("class", ("ripeFruit " + fruits[i].name + "Ripe"));
         } else {
@@ -167,22 +173,28 @@ function render() {
         var fruitText = document.createElement("span");
         fruitText.setAttribute("class", "fruitText");
 
-        var ripeMonthsText = document.createElement("span");
-        ripeMonthsText.setAttribute("id", "engMonths");
-        ripeMonthsText.setAttribute("class", ("ripeMonthsText " + fruits[i].name + "Text"));
-
         var fruitTextNode = document.createTextNode(fruits[i].name);
         fruitText.appendChild(fruitTextNode);
-
-        var ripeMonthsTextNode = document.createTextNode(fruits[i].engMonths);
-        ripeMonthsText.appendChild(ripeMonthsTextNode);
-
         fruit.appendChild(fruitText);
-        fruit.appendChild(ripeMonthsText);
-        document.body.appendChild(fruit);
 
-        console.log(fruits[i].engMonths);
-    }  
+        var ripeMonths = document.createElement("ol");
+        for (j = 0; j < fruits[i].engMonths.length; j++) {
+            var ripeMonthsText = document.createElement("li");
+
+/* use if id is ever needed          
+            ripeMonthsText.setAttribute("id", ("engMonths" + fruits[i].name)); 
+*/
+            ripeMonthsText.setAttribute("class", ("ripeMonthsText"));
+
+            var ripeMonthsTextNode = document.createTextNode(fruits[i].engMonths[j]);
+            ripeMonthsText.appendChild(ripeMonthsTextNode);
+            fruit.appendChild(ripeMonthsText);
+            }
+
+        fruitList.appendChild(fruit);
+    }
+
+    document.body.appendChild(fruitList);
     
 }
 
