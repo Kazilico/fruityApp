@@ -156,45 +156,55 @@ for (i = 0; i < fruits.length; i++) {
 }
 
 function render() {
-    var fruitList = document.createElement("div");
+    var fruitTable = document.createElement("div");
+        fruitTable.setAttribute("class", "fruitTable");
 
-    for (i = 0; i < fruits.length; i++) {
-        var fruit = document.createElement("span");
+        document.body.appendChild(fruitTable);
 
-/* use if id is ever needed
-        fruit.setAttribute('id', fruits[i].name);
-*/        
-        if (fruits[i].isRipe == true) {
-            fruit.setAttribute("class", ("ripeFruit " + fruits[i].name + "Ripe"));
-        } else {
-            fruit.setAttribute("class", ("fruit " + fruits[i].name));
-        }
-        
-        var fruitText = document.createElement("span");
-        fruitText.setAttribute("class", "fruitText");
+        var fruitRow = document.createElement("div");
+        fruitRow.setAttribute("class", "fruitRow");
 
-        var fruitTextNode = document.createTextNode(fruits[i].name);
-        fruitText.appendChild(fruitTextNode);
-        fruit.appendChild(fruitText);
+        document.body.appendChild(fruitRow);
 
-        var ripeMonths = document.createElement("ol");
-        for (j = 0; j < fruits[i].engMonths.length; j++) {
-            var ripeMonthsText = document.createElement("li");
+        for (i = 0; i < fruits.length; i++) {
+            var fruit = document.createElement("span");
 
-/* use if id is ever needed          
-            ripeMonthsText.setAttribute("id", ("engMonths" + fruits[i].name)); 
-*/
-            ripeMonthsText.setAttribute("class", ("ripeMonthsText"));
-
-            var ripeMonthsTextNode = document.createTextNode(fruits[i].engMonths[j]);
-            ripeMonthsText.appendChild(ripeMonthsTextNode);
-            fruit.appendChild(ripeMonthsText);
+    /* use if id is ever needed
+            fruit.setAttribute('id', fruits[i].name); */        
+            if (fruits[i].isRipe == true) {
+                fruit.setAttribute("class", ("ripeFruit " + fruits[i].name + "Ripe"));
+            } else {
+                fruit.setAttribute("class", ("fruit " + fruits[i].name));
             }
 
-        fruitList.appendChild(fruit);
-    }
+            /*var fruitSep = document.createElement("div");
+            fruitSep.setAttribute("class", "fruitSep");
 
-    document.body.appendChild(fruitList);
+            fruit.appendChild(fruitSep);*/
+
+            var fruitText = document.createElement("span");
+            fruitText.setAttribute("class", "fruitText");
+
+            var fruitTextNode = document.createTextNode(fruits[i].name);
+            fruitText.appendChild(fruitTextNode);
+            fruit.appendChild(fruitText);
+
+            var ripeMonths = document.createElement("ol");
+            for (j = 0; j < fruits[i].engMonths.length; j++) {
+                var ripeMonthsText = document.createElement("li");
+
+    /* use if id is ever needed          
+                ripeMonthsText.setAttribute("id", ("engMonths" + fruits[i].name)); */
+                ripeMonthsText.setAttribute("class", ("ripeMonthsText"));
+
+                var ripeMonthsTextNode = document.createTextNode(fruits[i].engMonths[j]);
+                ripeMonthsText.appendChild(ripeMonthsTextNode);
+                fruit.appendChild(ripeMonthsText);
+                }
+
+            fruitRow.appendChild(fruit);
+            fruitTable.appendChild(fruitRow);
+        }
     
 }
 
