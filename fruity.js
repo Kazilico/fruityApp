@@ -129,8 +129,8 @@ function engMonth() {
         if (fruits[i].ripeMonths.includes("12")) {
             fruits[i].engMonths.push(" December");
         }
+        console.log(fruits[i].engMonths.length)
     }
-
 }
 
 
