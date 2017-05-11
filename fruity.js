@@ -129,7 +129,6 @@ function engMonth() {
         if (fruits[i].ripeMonths.includes("12")) {
             fruits[i].engMonths.push(" December");
         }
-        console.log(fruits[i].engMonths.length)
     }
 }
 
@@ -169,18 +168,11 @@ function render() {
         for (i = 0; i < fruits.length; i++) {
             var fruit = document.createElement("span");
 
-    /* use if id is ever needed
-            fruit.setAttribute('id', fruits[i].name); */        
-            if (fruits[i].isRipe == true) {
+           if (fruits[i].isRipe == true) {
                 fruit.setAttribute("class", ("ripeFruit " + fruits[i].name + "Ripe"));
             } else {
                 fruit.setAttribute("class", ("fruit " + fruits[i].name));
             }
-
-            /*var fruitSep = document.createElement("div");
-            fruitSep.setAttribute("class", "fruitSep");
-
-            fruit.appendChild(fruitSep);*/
 
             var fruitText = document.createElement("span");
             fruitText.setAttribute("class", "fruitText");
@@ -190,21 +182,46 @@ function render() {
             fruit.appendChild(fruitText);
 
             var ripeMonths = document.createElement("ol");
-            for (j = 0; j < fruits[i].engMonths.length; j++) {
-                var ripeMonthsText = document.createElement("li");
 
-    /* use if id is ever needed          
-                ripeMonthsText.setAttribute("id", ("engMonths" + fruits[i].name)); */
-                ripeMonthsText.setAttribute("class", ("ripeMonthsText"));
+            if (fruits[i].engMonths.length > 6) {
+                   var ripeMonthsTextFirst = document.createElement("li");
 
-                var ripeMonthsTextNode = document.createTextNode(fruits[i].engMonths[j]);
-                ripeMonthsText.appendChild(ripeMonthsTextNode);
-                fruit.appendChild(ripeMonthsText);
-                }
+                   ripeMonthsText.setAttribute("class", ("ripeMonthsTextFirst"));
 
-            fruitRow.appendChild(fruit);
-            fruitTable.appendChild(fruitRow);
+                   var ripeMonthsTextFirstNode = document.createTextNode(fruits[i].engMonths[0]);
+                   ripeMonthsText.appendChild(ripeMonthsTextFirstNode);
+                   fruit.appendChild(ripeMonthsText);
+                   console.log(ripeMonthsTextFirstNode);
+                   var ripeMonthsTextLast = document.createElement("li");
+
+                   ripeMonthsText.setAttribute("class", ("ripeMonthsTextLast"));
+
+                   var ripeMonthsTextLastNode = document.createTextNode(fruits[i].engMonths.slice(-1)[0]);
+                   ripeMonthsText.appendChild(ripeMonthsTextLastNode);
+                   fruit.appendChild(ripeMonthsText);
+
+                fruitRow.appendChild(fruit);
+                fruitTable.appendChild(fruitRow);
+
+            } else {
+                for (j = 0; j < fruits[i].engMonths.length; j++) {
+                    var ripeMonthsText = document.createElement("li");
+
+                    ripeMonthsText.setAttribute("class", ("ripeMonthsText"));
+
+                    var ripeMonthsTextNode = document.createTextNode(fruits[i].engMonths[j]);
+                    ripeMonthsText.appendChild(ripeMonthsTextNode);
+                    fruit.appendChild(ripeMonthsText);
+                    }
+
+                fruitRow.appendChild(fruit);
+                fruitTable.appendChild(fruitRow);
+                console.log(fruit);
+            }
         }
+        document.body.appendChild(ripeMonthsTextFirstNode);
+        document.body.appendChild(ripeMonthsTextLastNode);
+        document.body.appendChild(ripeMonthsText);
     
 }
 
