@@ -181,31 +181,29 @@ function render() {
             fruitText.appendChild(fruitTextNode);
             fruit.appendChild(fruitText);
 
-            var ripeMonths = document.createElement("ol");
-
             if (fruits[i].engMonths.length > 6) {
-                   var ripeMonthsTextFirst = document.createElement("li");
+                    var ripeMonthsTextFirst = document.createElement("span");
 
-                   ripeMonthsText.setAttribute("class", ("ripeMonthsTextFirst"));
+                    ripeMonthsTextFirst.setAttribute("class", ("ripeMonthsTextFirst"));
 
-                   var ripeMonthsTextFirstNode = document.createTextNode(fruits[i].engMonths[0]);
-                   ripeMonthsText.appendChild(ripeMonthsTextFirstNode);
-                   fruit.appendChild(ripeMonthsText);
-                   console.log(ripeMonthsTextFirstNode);
-                   var ripeMonthsTextLast = document.createElement("li");
+                    var ripeMonthsTextFirstNode = document.createTextNode(fruits[i].engMonths[0] + " ---");
+                    ripeMonthsTextFirst.appendChild(ripeMonthsTextFirstNode);
+                    fruit.appendChild(ripeMonthsTextFirst);
+                                      
+                    var ripeMonthsTextLast = document.createElement("span");
 
-                   ripeMonthsText.setAttribute("class", ("ripeMonthsTextLast"));
+                    ripeMonthsTextLast.setAttribute("class", ("ripeMonthsTextLast"));
 
-                   var ripeMonthsTextLastNode = document.createTextNode(fruits[i].engMonths.slice(-1)[0]);
-                   ripeMonthsText.appendChild(ripeMonthsTextLastNode);
-                   fruit.appendChild(ripeMonthsText);
-
-                fruitRow.appendChild(fruit);
-                fruitTable.appendChild(fruitRow);
+                    var ripeMonthsTextLastNode = document.createTextNode(fruits[i].engMonths.slice(-1)[0]);
+                    ripeMonthsTextLast.appendChild(ripeMonthsTextLastNode);
+                    fruit.appendChild(ripeMonthsTextLast);
+ 
+                    fruitRow.appendChild(fruit);
+                    fruitTable.appendChild(fruitRow);
 
             } else {
                 for (j = 0; j < fruits[i].engMonths.length; j++) {
-                    var ripeMonthsText = document.createElement("li");
+                    var ripeMonthsText = document.createElement("span");
 
                     ripeMonthsText.setAttribute("class", ("ripeMonthsText"));
 
@@ -216,7 +214,7 @@ function render() {
 
                 fruitRow.appendChild(fruit);
                 fruitTable.appendChild(fruitRow);
-                console.log(fruit);
+                
             }
         }
         document.body.appendChild(ripeMonthsTextFirstNode);
