@@ -101,7 +101,7 @@ body {
 	.background: (200, 200, 200, 0.5)
 }
 
-.ripeFruit:hover .ripeMonthsText:hover, .ripeMonthsTextFirst:hover, .ripeMonthsTextLast:hover {
+.ripeFruit:hover .ripeMonthsText, .fruit:hover .ripeMonthsTextFirst, .fruit:hover .ripeMonthsTextLast {
 	top: 0;
 	display: block;
 	opacity: 1.0;
@@ -197,6 +197,7 @@ body {
 	margin: 2%;
 }
 .Mulberries {
+	top: -54px;
 	background-image: url(images/MulberriesDark.jpg);
 }
 
@@ -205,6 +206,7 @@ body {
 }
 
 .Oranges {
+	top: -54px;
 	background-image: url(images/OrangesDark.jpg);
 }
 
@@ -213,14 +215,17 @@ body {
 }
 
 .Pecans {
+	top: -110px;
 	background-image: url(images/PecansDark.jpg);
 }
 
 .Persimmons {
+	top: -70px;
 	background-image: url(images/PersimmonsDark.jpg);
 }
 
 .Pistachios {
+	top: -70px;
 	background-image: url(images/PistachiosDark.jpg);
 }
 
