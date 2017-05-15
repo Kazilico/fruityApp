@@ -118,6 +118,7 @@ body {
 	margin: 2%;
 }
 .MulberriesRipe {
+	top: -54px;
 	background-image: url(images/Mulberries.jpg);
 }
 
@@ -126,6 +127,7 @@ body {
 }
 
 .OrangesRipe {
+	top: -55px;
 	background-image: url(images/Oranges.jpg);
 }
 
@@ -134,18 +136,22 @@ body {
 }
 
 .PecansRipe {
+	top: -110px;
 	background-image: url(images/Pecans.jpg);
 }
 
 .PersimmonsRipe {
+	top: -70px;
 	background-image: url(images/Persimmons.jpg);
 }
 
 .PistachiosRipe {
+	top: -70px;
 	background-image: url(images/Pistachios.jpg);
 }
 
 .PlumsRipe {
+	top: -90px;
 	background-image: url(images/Plums.jpg);
 }
 
@@ -154,38 +160,47 @@ body {
 }
 
 .PomegranatesRipe {
+	top: -165px;
 	background-image: url(images/Pomegranates.jpg);
 }
 
 .PomelosRipe {
+	top: -125px;
 	background-image: url(images/Pomelos.jpg);
 }
 
 .QuincesRipe {
+	top: -185px;
 	background-image: url(images/Quinces.jpg);
 }
 
 .RaspberriesRipe {
+	top: -205px;
 	background-image: url(images/Raspberries.jpg);
 }
 
 .RhubarbRipe {
+	top: -260px;
 	background-image: url(images/Rhubarb.jpg);
 }
 
 .StrawberriesRipe {
+	top: -300px;
 	background-image: url(images/Strawberries.jpg);
 }
 
 .TayberriesRipe {
+	top: -280px;
 	background-image: url(images/Tayberries.jpg);
 }
 
 .TomatoesRipe {
+	top: -220px;
 	background-image: url(images/Tomatoes.jpg);
 }
 
 .WalnutsRipe {
+	top: -315px;
 	background-image: url(images/Walnuts.jpg);
 }
 
@@ -230,6 +245,7 @@ body {
 }
 
 .Plums {
+	top: -110px;
 	background-image: url(images/PlumsDark.jpg);
 }
 
@@ -238,37 +254,46 @@ body {
 }
 
 .Pomegranates {
+	top: -165px;
 	background-image: url(images/PomegranatesDark.jpg);
 }
 
 .Pomelos {
+	top: -125px;
 	background-image: url(images/PomelosDark.jpg);
 }
 
 .Quinces {
+	top: -185px;
 	background-image: url(images/QuincesDark.jpg);
 }
 
 .Raspberries {
+	top: -205px;
 	background-image: url(images/RaspberriesDark.jpg);
 }
 
 .Rhubarb {
+	top: -260px;
 	background-image: url(images/RhubarbDark.jpg);
 }
 
 .Strawberries {
+	top: -300px;
 	background-image: url(images/StrawberriesDark.jpg);
 }
 
 .Tayberries {
+	top: -280px;
 	background-image: url(images/TayberriesDark.jpg);
 }
 
 .Tomatoes {
+	top: -220px;
 	background-image: url(images/TomatoesDark.jpg);
 }
 
 .Walnuts {
+	top: -315px;
 	background-image: url(images/WalnutsDark.jpg);
 }
