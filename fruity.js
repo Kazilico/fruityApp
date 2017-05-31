@@ -184,7 +184,7 @@ function render() {
             if (fruits[i].engMonths.length > 6) {
                     var ripeMonthsTextFirst = document.createElement("span");
 
-                    ripeMonthsTextFirst.setAttribute("class", ("ripeMonthsTextFirst"));
+                    ripeMonthsTextFirst.setAttribute("class", ("ripeMonthsText"));
 
                     var ripeMonthsTextFirstNode = document.createTextNode(fruits[i].engMonths[0] + " ---");
                     ripeMonthsTextFirst.appendChild(ripeMonthsTextFirstNode);
@@ -192,7 +192,7 @@ function render() {
                                       
                     var ripeMonthsTextLast = document.createElement("span");
 
-                    ripeMonthsTextLast.setAttribute("class", ("ripeMonthsTextLast"));
+                    ripeMonthsTextLast.setAttribute("class", ("ripeMonthsText"));
 
                     var ripeMonthsTextLastNode = document.createTextNode(fruits[i].engMonths.slice(-1)[0]);
                     ripeMonthsTextLast.appendChild(ripeMonthsTextLastNode);
@@ -211,16 +211,12 @@ function render() {
                     ripeMonthsText.appendChild(ripeMonthsTextNode);
                     fruit.appendChild(ripeMonthsText);
                     }
-
-                fruitRow.appendChild(fruit);
-                fruitTable.appendChild(fruitRow);
-                
+       
             }
+            fruitRow.appendChild(fruit);
+            fruitTable.appendChild(fruitRow);
         }
-        document.body.appendChild(ripeMonthsTextFirstNode);
-        document.body.appendChild(ripeMonthsTextLastNode);
-        document.body.appendChild(ripeMonthsText);
-    
-}
+        
+}        
 
 render();

@@ -69,7 +69,8 @@ body {
 	border-radius: 5px 5px 5px 5px;
 }
 
-.ripeMonthsText, .ripeMonthsTextFirst, .ripeMonthsTextLast {
+/* .ripeMonthsText, .ripeMonthsTextFirst, .ripeMonthsTextLast { */
+.ripeMonthsText {
 	position: initial;
 	display: inline-block;
 	top: 100%;
@@ -88,7 +89,8 @@ body {
     -webkit-transition: opacity 1s ease-in-out;
 }
 
-.fruit:hover .ripeMonthsText, .fruit:hover .ripeMonthsTextFirst, .fruit:hover .ripeMonthsTextLast {
+/* .fruit:hover .ripeMonthsText,.ripeFruit:hover .ripeMonthsText, .fruit:hover .ripeMonthsTextFirst, .fruit:hover .ripeMonthsTextLast { */
+.fruit:hover .ripeMonthsText,.ripeFruit:hover .ripeMonthsText {
 	top: 0;
 	display: inline-block;
 	opacity: 1.0;
@@ -101,14 +103,16 @@ body {
 	.background: (200, 200, 200, 0.5)
 }
 
+/*
 .ripeFruit:hover .ripeMonthsText, .fruit:hover .ripeMonthsTextFirst, .fruit:hover .ripeMonthsTextLast {
 	top: 0;
-	display: block;
+	display: inline-block;
 	opacity: 1.0;
     transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
 }
+*/
 
 .MulberriesRipe, .NectarinesRipe, .OrangesRipe, .PeachesRipe, .PecansRipe, .PersimmonsRipe, .PistachiosRipe, .PlumsRipe, .PluotsRipe, .PomegranatesRipe, .PomelosRipe, .QuincesRipe, .RaspberriesRipe, .RhubarbRipe, .StrawberriesRipe, .TayberriesRipe, .TomatoesRipe, .WalnutsRipe {
 	width: 180px;
